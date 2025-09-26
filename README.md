@@ -17,7 +17,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Visit http://localhost:5000 in your browser.
+Visit http://localhost:5001 in your browser.
 
 ## Customize
 - Update templates in `templates/`
