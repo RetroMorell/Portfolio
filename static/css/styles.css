@@ -1,0 +1,13 @@
+/* Minimal site styles */
+body { background-color: var(--bs-body-bg); color: var(--bs-body-color); }
+main { min-height: 70vh; }
+.navbar-brand { font-weight: 700; }
+.hero-image { max-height: 380px; object-fit: cover; }
+.carousel-item img { max-height: 520px; object-fit: cover; }
+
+/* Mobile responsiveness improvements */
+@media (max-width: 768px) {
+  .display-5 { font-size: 2rem; }
+  .lead { font-size: 1.1rem; }
+  .py-5 { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+}
