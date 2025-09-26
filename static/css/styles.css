@@ -10,4 +10,23 @@ main { min-height: 70vh; }
   .display-5 { font-size: 2rem; }
   .lead { font-size: 1.1rem; }
   .py-5 { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+  
+  /* Hero section mobile spacing */
+  .hero-section .col-md-6:first-child {
+    margin-bottom: 2rem;
+  }
+  
+  .hero-section .btn-lg {
+    margin-top: 1rem;
+  }
+  
+  /* Add more space between text and button */
+  .hero-section .lead {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Desktop text size adjustments */
+.hero-section .lead {
+  font-size: 1.1rem;
 }

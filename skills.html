@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skills - Ricardo Morell</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored || (prefersDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-bs-theme', theme);
+        } catch (e) {
+          document.documentElement.setAttribute('data-bs-theme', 'light');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-body text-body">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+            <li class="nav-item dropdown ms-lg-3">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="themeDropdown">
+                Theme
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><button class="dropdown-item" type="button" data-theme-value="light">Light</button></li>
+                <li><button class="dropdown-item" type="button" data-theme-value="dark">Dark</button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" type="button" data-theme-value="auto">Auto</button></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="flex-shrink-0">
+      <section class="py-5">
+        <div class="container">
+          <h1 class="mb-4">Skills</h1>
+          <p class="lead mb-5">Here are the technical skills and technologies I work with:</p>
+          
+          <!-- Programming Languages -->
+          <div class="row mb-5">
+            <div class="col-12">
+              <h3 class="mb-3">Programming Languages</h3>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Python</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Java</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">C++</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">SQL</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cloud & DevOps -->
+          <div class="row mb-5">
+            <div class="col-12">
+              <h3 class="mb-3">Cloud & DevOps</h3>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">AWS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Google Cloud</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Docker</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">CI/CD</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">EC2</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">S3</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">AWS Lambda</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">AWS Fargate</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">GKE</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Serverless</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Google Cloud Storage</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Cloud Architectures</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data & AI -->
+          <div class="row mb-5">
+            <div class="col-12">
+              <h3 class="mb-3">Data & AI</h3>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">PySpark</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Machine Learning</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">AI</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">TensorRT</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">DynamoDB</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">JSON</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Distributed Computing</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Edge Computing</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Development Tools -->
+          <div class="row mb-5">
+            <div class="col-12">
+              <h3 class="mb-3">Development Tools</h3>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Visual Studio Code</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">IntelliJ</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">PyCharm</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Eclipse</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Git</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">GitHub</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">JUnit</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Unit Testing</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="row mb-5">
+            <div class="col-12">
+              <h3 class="mb-3">Web Development</h3>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Flask</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Web Application</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Software Development</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Specialized Areas -->
+          <div class="row mb-5">
+            <div class="col-12">
+              <h3 class="mb-3">Specialized Areas</h3>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Embedded</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Simulations</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Documentation</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Debugging</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="row">
+            <div class="col-12">
+              <h3 class="mb-3">Soft Skills</h3>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Problem Solving</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Analytical Skills</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Critical Thinking</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Teamwork</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Agile Methodology</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Scrum</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Design Thinking</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Creativity</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Curiosity</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">English</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+              <div class="card h-100 text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Spanish</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer mt-auto py-4 bg-body-tertiary border-top">
+      <div class="container">
+        <span class="text-muted">© 2025 Ricardo Morell. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
