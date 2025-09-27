@@ -54,7 +54,7 @@
     const carousel = new bootstrap.Carousel(carouselElement, {
       interval: 4000,
       pause: 'hover',
-      ride: false
+      ride: 'carousel'
     });
   }
 })();
